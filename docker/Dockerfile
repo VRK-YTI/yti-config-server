@@ -2,7 +2,7 @@
 FROM cls-docker-java-base:alpine
 
 # Deploy project
-ADD yti-config-server.jar ${deploy_dir}/yti-config-server.jar
+ADD target/yti-config-server.jar ${deploy_dir}/yti-config-server.jar
 
 
 RUN bash -c 'touch ${deploy_dir}/yti-config-server.jar'
