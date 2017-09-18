@@ -57,7 +57,7 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>${spotify-docker.version}</version>
                 <configuration>
-                    <imageName>cls-content-intake-service</imageName>
+                    <imageName>yti-config-server</imageName>
                     <dockerDirectory>docker</dockerDirectory>
                     <useConfigFile>true</useConfigFile>
                     <pullOnBuild>false</pullOnBuild>
