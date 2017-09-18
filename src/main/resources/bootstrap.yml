@@ -1,0 +1,5 @@
+spring:
+  config:
+    location: /data/git/yti-config.git/files/config-server/application.yml
+  application:
+    name: yti-config-server
