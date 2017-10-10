@@ -1,2 +1,2 @@
 # yti-config-server
-YTI configuration server
+YTI Spring configuration server

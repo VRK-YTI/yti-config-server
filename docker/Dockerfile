@@ -1,9 +1,8 @@
 # Pull base image
-FROM cls-docker-java-base:alpine
+FROM yti-codelist-docker-java-base:alpine
 
 # Deploy project
 ADD target/yti-config-server.jar ${deploy_dir}/yti-config-server.jar
-
 
 RUN bash -c 'touch ${deploy_dir}/yti-config-server.jar'
 
