@@ -1,5 +1,5 @@
 # Pull base image
-FROM yti-codelist-docker-java-base:alpine
+FROM yti-docker-java-base:corretto-11.0.22
 
 # Deploy project
 ADD target/yti-config-server.jar ${deploy_dir}/yti-config-server.jar
